@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Memory Match</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-elements">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <div class="container glass-panel">
+        <header>
+            <h1 class="neon-text">NEON MEMORY</h1>
+            <div class="stats">
+                <div class="stat-box">
+                    <span class="label">MOVES</span>
+                    <span id="moves" class="value">0</span>
+                </div>
+                <div class="stat-box">
+                    <span class="label">TIME</span>
+                    <span id="time" class="value">00:00</span>
+                </div>
+            </div>
+            <button id="restart-btn" class="cyber-button">
+                RESTART SYSTEM
+                <span class="btn-glitch"></span>
+            </button>
+        </header>
+
+        <main>
+            <div class="game-board" id="game-board">
+                <!-- Cards will be generated via JavaScript -->
+            </div>
+        </main>
+
+        <div id="victory-screen" class="modal hidden">
+            <div class="modal-content glass-panel">
+                <h2 class="neon-text-green">SYSTEM OVERRIDE COMPLETE</h2>
+                <p>You matched all memory sectors!</p>
+                <div class="final-stats">
+                    <p>Time: <span id="final-time">00:00</span></p>
+                    <p>Moves: <span id="final-moves">0</span></p>
+                </div>
+                <button id="play-again-btn" class="cyber-button">PLAY AGAIN</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+26' KFW
+="kw">import</span> json
+
+="kw">class</span>="cm"># 행사 정보 딕셔너리 생성
+event_info = {
+    "event_name": "="num">26</span>년 카투사 친선주간(KFW)",
+    "date": "="num">2026</span>-="num">08</span>-="num">12</span>",
+    "time": "="num">10</span>:="num">00</span> ~ ="num">16</span>:="num">30</span>",
+    "location": "Downtown Plaza",
+    "objective": "한·미 우호 증진 및 참가/체험 기회 무료 제공",
+    "booths": {
+        "food": ="num">6</span>,
+        "experience": ="num">7</span>,
+        "guide": ="num">4</span>,
+        "rest": ="num">2</span>
+    },
+    "booth_details": [
+        {"name": "타코, 만두, 딤섬", "color": "pink"},
+        {"name": "커피, 에이드류", "color": "pink"},
+        {"name": "스테이크", "color": "pink"},
+        {"name": "분식: 떡볶이/순대 등", "color": "pink"},
+        {"name": "닭강정", "color": "pink"},
+        {"name": "닭꼬치", "color": "pink"},
+        {"name": "디퓨저 공방", "color": "orange"},
+        {"name": "키링 제작", "color": "orange"},
+        {"name": "오징어게임", "color": "orange"},
+        {"name": "투호/제기차기", "color": "orange"},
+        {"name": "한복 체험", "color": "orange"},
+        {"name": "네컷 사진", "color": "orange"},
+        {"name": "기타 공예", "color": "orange"},
+        {"name": "프라이드 코리아 / 티셔츠", "color": "green"},
+        {"name": "카투사 연합회", "color": "green"},
+        {"name": "유학/종합안내", "color": "green"},
+        {"name": "현장 휴식 및 대기 공간", "color": "grey"}
+    ]
+}
+
+# JSON 파일로 저장
+="kw">with</span> open("kfw_event.json", "w", encoding="utf-="num">8</span>") ="kw">as</span> f:
+    json.dump(event_info, f, indent=="num">4</span>, ensure_ascii=="num">False</span>)
+
+="kw">print</span>("행사 정보가 kfw_event.json 파일에 저장되었습니다.")
+</span>
+="kw">import</span> json
+
+="kw">class</span>="cm"># 행사 정보 딕셔너리 생성
+event_info = {
+    "event_name": "="num">25</span>년 카투사 친선주간(KFW)",
+    "date": "="num">2025</span>-="num">06</span>-="num">10</span>",
+    "time": "="num">10</span>:="num">00</span> ~ ="num">16</span>:="num">30</span>",
+    "location": "Downtown Plaza",
+    "objective": "한·미 우호 증진 및 참가/체험 기회 무료 제공",
+    "booths": {
+        "food": ="num">6</span>,
+        "experience": ="num">7</span>,
+        "guide": ="num">4</span>,
+        "rest": ="num">2</span>
+    },
+    "booth_details": [
+        {"name": "타코, 만두, 딤섬", "color": "pink"},
+        {"name": "커피, 에이드류", "color": "pink"},
+        {"name": "스테이크", "color": "pink"},
+        {"name": "분식: 떡볶이/순대 등", "color": "pink"},
+        {"name": "닭강정", "color": "pink"},
+        {"name": "닭꼬치", "color": "pink"},
+        {"name": "디퓨저 공방", "color": "orange"},
+        {"name": "키링 제작", "color": "orange"},
+        {"name": "오징어게임", "color": "orange"},
+        {"name": "투호/제기차기", "color": "orange"},
+        {"name": "한복 체험", "color": "orange"},
+        {"name": "네컷 사진", "color": "orange"},
+        {"name": "기타 공예", "color": "orange"},
+        {"name": "프라이드 코리아 / 티셔츠", "color": "green"},
+        {"name": "카투사 연합회", "color": "green"},
+        {"name": "유학/종합안내", "color": "green"},
+        {"name": "현장 휴식 및 대기 공간", "color": "grey"}
+    ]
+}
+
+# JSON 파일로 저장
+="kw">with</span> open("kfw_event.json", "w", encoding="utf-="num">8</span>") ="kw">as</span> f:
+    json.dump(event_info, f, indent=="num">4</span>, ensure_ascii=="num">False</span>)
+
+="kw">print</span>("행사 정보가 kfw_event.json 파일에 저장되었습니다.")
+</span>
