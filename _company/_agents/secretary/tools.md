@@ -1,6 +1,6 @@
-# 📱 영숙 — 도구 매니페스트
+# 📱 영자 — 도구 매니페스트
 
-_영숙 에이전트가 어떤 도구를 어디까지 자율적으로 쓸 수 있는지 정의합니다._
+_영자 에이전트가 어떤 도구를 어디까지 자율적으로 쓸 수 있는지 정의합니다._
 _매번 시스템 프롬프트로 주입되며, 텔레그램에서 `/tools`로 현재 상태 확인 가능._
 
 ---
@@ -23,35 +23,39 @@ AUTONOMY_LEVEL: 2
 ## 사용 가능한 도구
 
 ### `calendar_local`
+
 _agents/secretary/calendar.md (Lv.1 오프라인)
 
 - `enabled`: true
 - `requires_credentials`: `config.md` 참조
 
 ### `calendar_caldav`
+
 CalDAV (iCloud/Google 호환, Connected 토글)
 
 - `enabled`: true
 - `requires_credentials`: `config.md` 참조
 
 ### `telegram_bot`
+
 텔레그램 양방향 봇 (이미 활성)
 
 - `enabled`: true
 - `requires_credentials`: `config.md` 참조
 
 ### `kakao_alert`
+
 카카오톡 "나에게 보내기" 단방향 알림
 
 - `enabled`: true
 - `requires_credentials`: `config.md` 참조
 
 ### `email_triage`
+
 IMAP/Gmail 분류 + 답장 초안
 
 - `enabled`: true
 - `requires_credentials`: `config.md` 참조
-
 
 ---
 
