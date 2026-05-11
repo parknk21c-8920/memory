@@ -1,7 +1,7 @@
 {
   "ceo": "gemma3:4b",
-  "youtube": "gemma3:company_state.json",
-  "instagram": "gemma3:company_state.json",
+  "youtube": "gemma3:4b",
+  "instagram": "gemma3:4b",
   "designer": "gemma3:4b",
   "business": "gemma3:company_state.json",
   "secretary": "gemma3:company_state.json",
