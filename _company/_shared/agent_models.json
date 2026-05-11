@@ -3,9 +3,10 @@
   "youtube": "gemma3:4b",
   "instagram": "gemma3:4b",
   "designer": "gemma3:4b",
+  "developer": "gemma3:4b",
   "business": "gemma3:company_state.json",
   "secretary": "gemma3:company_state.json",
   "editor": "gemma3:company_state.json",
   "writer": "gemma3:company_state.json",
-  "researcher": "gemma3:company_state.json"
+  "researcher": "gemma3:4b"
 }
