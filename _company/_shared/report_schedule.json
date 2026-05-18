@@ -11,12 +11,12 @@
         5
       ],
       "action": "briefing",
-      "enabled": true,
+      "enabled": false,
       "lastFiredAt": "2026-05-14"
     },
     {
       "id": "sched-1778248654033",
-      "label": "새 일정",
+      "label": "병원진료",
       "hour": 9,
       "minute": 0,
       "days": [
@@ -24,7 +24,8 @@
         2,
         3,
         4,
-        5
+        5,
+        0
       ],
       "action": "briefing",
       "enabled": true,
